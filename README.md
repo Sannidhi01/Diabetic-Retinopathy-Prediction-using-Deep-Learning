@@ -4,6 +4,7 @@ Deep Learning | Medical Imaging | TensorFlow | Keras
 
 This project focuses on detecting Diabetic Retinopathy (DR)—a diabetes-induced retinal disease—using deep learning on high-resolution retinal fundus images.
 Fine-tuned a ResNet50 CNN model on the APTOS 2019 Blindness Detection Dataset to classify images into five severity levels of DR:
+
 0 - No DR
 
 1 -Mild
@@ -17,16 +18,23 @@ Fine-tuned a ResNet50 CNN model on the APTOS 2019 Blindness Detection Dataset to
 📂 Dataset
 
 The dataset used is the APTOS 2019 Blindness Detection dataset from Kaggle:
+
 🔗 Download here: https://www.kaggle.com/competitions/aptos2019-blindness-detection/data
 
 🚀 Features
 
 ✔️ Multiclass classification (5 DR stages)
+
 ✔️ Transfer learning with ResNet50
+
 ✔️ Circular cropping + Gaussian enhancement
+
 ✔️ Real-time augmentation with ImageDataGenerator
+
 ✔️ Stratified train/validation split
+
 ✔️ Early stopping & learning rate scheduler
+
 ✔️ Achieved ~81.7% test accuracy
 
 🧠 Model Architecture

@@ -39,15 +39,15 @@ The dataset used is the APTOS 2019 Blindness Detection dataset from Kaggle:
 
  Model Architecture
 
-ResNet50 (pretrained on ImageNet, include_top=False)
+- ResNet50 (pretrained on ImageNet, include_top=False)
 
-Global Average Pooling
+- Global Average Pooling
 
-Dense(2048) + ReLU
+- Dense(2048) + ReLU
 
-Dropout(0.5)
+- Dropout(0.5)
 
-Dense(5) + Softmax
+- Dense(5) + Softmax
 
 🛠 Technologies Used
 

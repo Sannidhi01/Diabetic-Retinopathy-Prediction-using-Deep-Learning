@@ -21,23 +21,23 @@ The dataset used is the APTOS 2019 Blindness Detection dataset from Kaggle:
 
 🔗 Download here: https://www.kaggle.com/competitions/aptos2019-blindness-detection/data
 
-🚀 Features
+ Features
 
-✔️ Multiclass classification (5 DR stages)
+- Multiclass classification (5 DR stages)
 
-✔️ Transfer learning with ResNet50
+- Transfer learning with ResNet50
 
-✔️ Circular cropping + Gaussian enhancement
+- Circular cropping + Gaussian enhancement
 
-✔️ Real-time augmentation with ImageDataGenerator
+- Real-time augmentation with ImageDataGenerator
 
-✔️ Stratified train/validation split
+- Stratified train/validation split
 
-✔️ Early stopping & learning rate scheduler
+- Early stopping & learning rate scheduler
 
-✔️ Achieved ~81.7% test accuracy
+- Achieved ~81.7% test accuracy
 
-🧠 Model Architecture
+ Model Architecture
 
 ResNet50 (pretrained on ImageNet, include_top=False)
 
